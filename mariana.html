@@ -1,0 +1,26 @@
+<head>
+	<title>OI MARIANA</title>
+	<style>
+		body {
+			background-color: #751818;
+		}
+	</style>
+</head>
+<body>
+	<h1>ME MAMA</h1>
+
+	<script>
+		var background = document.querySelector('body');
+		var color1;
+		var color2;
+		var x;
+		var color3;
+		setInterval(() => {
+			color1 = Math.floor(Math.random() * 255);
+			color2 = Math.floor(Math.random() * 255);
+			color3 = Math.floor(Math.random() * 255);
+			x = `rgb(${color1},${color2},${color3})`;		
+			background.style.backgroundColor = x;
+		}, 1500);
+	</script>
+</body
